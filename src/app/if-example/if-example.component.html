@@ -1,0 +1,18 @@
+<div>
+    <div>
+        Enter Age: <input type="text" [(ngModel)]="age">
+    </div><br/>
+    <div *ngIf="age<18; else elseAgeBlock">
+        <b> Not Elgible to Vote</b>
+    </div>
+    <ng-template #elseAgeBlock>
+        <b>Eligible to vote</b>
+    </ng-template>
+</div>
+
+<div [ngStyle]="{'background-color':'gold'}">
+    <h1>I am Ironman</h1>
+</div>
+<div [ngStyle]="{'background-color':'red'}">
+    <h1>TS</h1>
+</div>

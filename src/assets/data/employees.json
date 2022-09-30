@@ -1,0 +1,7 @@
+[
+    {"id":1, "name": "Anthony Stark", "age":52},
+    {"id":2, "name": "Peter Parker", "age":21},
+    {"id":3, "name": "Matt Murdock", "age":35},
+    {"id":4, "name": "Bruce Banner", "age":49},
+    {"id":5, "name": "Steve Rogers", "age":114}
+]
